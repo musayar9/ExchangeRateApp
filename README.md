@@ -2,7 +2,7 @@
 
 Bu projemde güncel döviz kuru uygulaması yaptım istediğimiz ülkenin parasını istediğimiz para birimine dönüştürebililoruz.  Uygulama apisini *https://app.exchangerate-api.com/sign-in/retry* sitesinden alındı. 
 
-![img-1](images\1.jpg)
+![img-1](images/1.jpg)
 
 Uygulama tasarımında 1.döviz kuru alanına çevirmek istediğiniz para birimini 2.döviz kuru alanında hangi para birimine çevirmek istiyorsanız o ülkenin para birimini seçiyorsunuz. Aşağıdaki resimde 1 USD kaç TRY olduğuna bakılıyor.
 
