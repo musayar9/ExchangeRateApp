@@ -16,6 +16,7 @@ async function showMoney(){
     document.querySelector("#load").style.display = "none"
     try{
         const response = await fetch(url + "/codes");
+        console.log(response)
         const data = await response.json();
         console.log(data)
 
@@ -52,6 +53,7 @@ exchangeCalculate.addEventListener("click", function(){
 
     async function showExchange(){
         const resp = await fetch(url + "/latest/" + exchange1)
+        console.log(resp)
         const data = await resp.json();
         console.log(data);
 
@@ -78,7 +80,7 @@ exchangeCalculate.addEventListener("click", function(){
 
 
    for(let otherExchange in outpot){
-    console.log(otherExchange)
+    console.log(otherExchange, outpot[otherExchange])
 
     resultValue2.innerHTML += `
     <div class =  " card border-primary d-inline-flex ava mt-2"> 
