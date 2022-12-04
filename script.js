@@ -1,4 +1,4 @@
-const api_Key =  "b477440fe0fc111bd5ea3d8e";
+const api_Key =  "your_api_key";
 const url =  " https://v6.exchangerate-api.com/v6/" +api_Key;
 const url2= " https://v6.exchangerate-api.com/v6/b477440fe0fc111bd5ea3d8e/latest/"
 
