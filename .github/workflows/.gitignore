@@ -1,0 +1,19 @@
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore log files and directories
+*.log
+logs/
+.env
+# Ignore configuration files
+config.ini
+
+# Ignore a specific directory
+my_folder/
+
+# Ignore all .md files in the root directory, except README.md
+*.md
+!README.md
